@@ -11,6 +11,9 @@
   font-weight: <weight>;
   font-style: bold;
 }
+.pri-color{
+  /* color: #4E47FF; */
+}
 /* nav style */
 nav{
 display: flex;
@@ -26,6 +29,7 @@ font-size:16px ;
 color: white;
 background-color: #4E47FF;
 border: none;
+border-radius: 5px;
 
 }
 .raleway-font{
@@ -38,6 +42,52 @@ border: none;
 header{
     background-image: url('/images/Hero-bg.png');
 }
+.action
+{
+  display: flex;
+  justify-content:space-around;
+  margin: 75px 150px;
+}
+.action-image{
+  border-radius: 20px;
+}
+.action-items{
+  text-align: left;
+
+}
+.action-title{
+  font-size: 42px;
+  color: #252432;
+}
+.action-details{
+  font-size: 24px;
+  color: #302432;
+}
+.users{
+  background-color: #e9ecff;
+  margin: 100px 150px;
+  padding: 25px 0px;
+  border-radius: 20px;
+}
+.user-title{
+  text-align: center;
+  font-size: 40px;
+}
+h1{
+  text-align: center;
+  color: #4E47FF;
+  font-size: 70px;
+  /* font-weight: bold; */
+  padding-bottom: 0px;
+}
+.user-content{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+
 
     
     
