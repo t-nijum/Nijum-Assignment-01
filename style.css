@@ -11,9 +11,6 @@
   font-weight: <weight>;
   font-style: bold;
 }
-.pri-color{
-  /* color: #4E47FF; */
-}
 /* nav style */
 nav{
 display: flex;
@@ -21,20 +18,22 @@ justify-content: space-between;
 }
 /* color font */
 .logo{
-    font-size: 34 px;
+    font-size: 40px;
     color: #4E47FF;
 }
 .btn-primary{
-font-size:16px ;
 color: white;
-background-color: #4E47FF;
+background-color:#4E47FF;
 border: none;
 border-radius: 5px;
-
+padding: 15px 35px;
+margin: 20px 35px;
+}
+.btn-primary:hover{
+background-color: coral;
 }
 .raleway-font{
     text-align: center;
-    /* background-color: antiquewhite; */
     font-size: 35px;
     padding: 45px;
     font-style: italic;
@@ -85,22 +84,88 @@ h1{
   justify-content: center;
   gap: 30px;
 }
+
+/*Feedback Section */
+.all-feedback{
+  display: flex;
+  justify-content: center;
+  margin: 50px 100px;
+}
+.feedback-1{
+  background-color: aliceblue;
+  margin: 20px 30px;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+.feedback-2{
+  background-color: aliceblue;
+  margin: 20px 30px;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+.feedback-3{
+  background-color: aliceblue;
+  margin: 20px 30px;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+.feedback-title{
+  font-size: 45px;
+  text-align: center;
+}
+
+.user-feedback{
+  display: flex;
+}
+/* Extra Section */
+.extra-section{
+    margin: 70px 150px;
+    padding: 50px 100px;
+}
+.extra-heading{
+    font-size: 45px;
+}
+.extra-title{
+    text-align: center;
+    padding: 20px;
+}
+.extra-image{
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+
 .touch-heading{
   font-size: 80px;
 }
 .contact-section{
-  justify-content:space-between;
+  justify-content:space-around;
   margin: 100px 200px;
   gap: 100px;
   display: flex;
   background-color:#D6DDED;
   padding: 20px 20px;
   border-radius: 20px;
-  
 }
-
-
-
+/* Footer Section */
+.footer-logo{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+.footer-content{
+  text-align: center;
+  color: #8987A1;
+}
+.footer-links{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+ul li{
+  list-style: none;
+}
 
 
     
