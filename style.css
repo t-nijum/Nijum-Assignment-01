@@ -32,6 +32,12 @@ margin: 20px 35px;
 .btn-primary:hover{
 background-color: coral;
 }
+.banner{
+  background-color: #FFFFFF;
+  margin: 30px 150px 200px;
+  text-align: center;
+  padding: 0px 10px 20px;
+}
 .raleway-font{
     text-align: center;
     font-size: 35px;
@@ -39,7 +45,8 @@ background-color: coral;
     font-style: italic;
 }
 header{
-    background-image: url('/images/Hero-bg.png');
+background-image: url("/images/Hero-bg.png");
+padding: 30px;
 }
 .action
 {
@@ -76,7 +83,6 @@ h1{
   text-align: center;
   color: #4E47FF;
   font-size: 70px;
-  /* font-weight: bold; */
   padding-bottom: 0px;
 }
 .user-content{
@@ -131,8 +137,7 @@ h1{
 }
 .extra-image{
     justify-content: center;
-    border-radius: 30px;
-    
+    border-radius: 30px;  
 }
 
 .touch-heading{
@@ -166,9 +171,3 @@ h1{
 ul li{
   list-style: none;
 }
-
-
-    
-    
-
-
